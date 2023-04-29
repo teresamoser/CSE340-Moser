@@ -8,8 +8,8 @@ services:
       - "--providers.docker.exposedbydefault=false"
       - "--entrypoints.web.address=:80"
     ports:
-      - "86:86"
-      - "8086:8086"
+      - "80:80"
+      - "8090:8090"
     volumes:
       - "/var/run/docker.sock:/var/run/docker.sock:ro"
 
